@@ -2,7 +2,7 @@
 body {background-color: purple;}      
 
 img {
-    width: 150px;
+    width: 100px;
     height: 200px;
     object-fit: cover;
   }
