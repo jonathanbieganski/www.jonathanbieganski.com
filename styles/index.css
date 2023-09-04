@@ -1,0 +1,23 @@
+
+body {background-color: black;}      
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  em {
+    color: brown;
+    font-style: normal;
+  }
+
+  img {
+    width: 250px;
+    border-radius: 125px;
+    float: left;
+    margin: right;
+  }
+
+  .username {
+    font-weight: bold;
+  }
