@@ -1,11 +1,14 @@
 
 body {background-color: purple;}      
 
-img {
+.jonathanbieganskipng{
+  img {
     width: 100px;
     height: 200px;
     object-fit: cover;
   }
+}
+
   em {
     color: white;
     font-style: normal;
