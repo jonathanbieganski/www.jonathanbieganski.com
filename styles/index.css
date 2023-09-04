@@ -1,13 +1,13 @@
 
-body {background-color: black;}      
+body {background-color: purple;}      
 
 img {
-    width: 200px;
+    width: 150px;
     height: 200px;
     object-fit: cover;
   }
   em {
-    color: brown;
+    color: white;
     font-style: normal;
   }
 
