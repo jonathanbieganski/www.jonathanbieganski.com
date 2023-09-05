@@ -1,26 +1,47 @@
-
-body {background-color: purple;}      
-
-.jonathanbieganskipng{
-  img {
-    width: 100px;
-    height: 200px;
-    object-fit: cover;
-  }
+/* styles.css */
+.jonathanbieganskipng {
+  width: 200px;
+  height: 150px;
+  border-radius: 100px;
 }
 
-  em {
-    color: white;
-    font-style: normal;
-  }
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  img {
-    width: 250px;
-    border-radius: 125px;
-    float: left;
-    margin: right;
-  }
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
 
-  .username {
-    font-weight: bold;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 2rem;
+}
+
+/* Project styling */
+.project {
+  margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}

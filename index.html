@@ -3,47 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Jonathan, Bieganski" />
-    <title>jonathanbieganski.com main site for my resume, contact info and more</title>
-    <link rel="stylesheet" href="index.css" />
-    <img
-      class="jonathanbieganskipng"
-      src="images/jonathanbieganski.png"
-      alt="An image of Jonathan Bieganski with a slight smile"
-    />
+    <meta name="keywords" content="jonathanbieganski.com" />
+    <title>JonathanBieganski.com</title>
+    <link rel="stylesheet" href="indexv2.css" />
   </head>
   <body>
-    <h1 class="h1">
-      SITE UNDER CONSTRUCTION - Jonathan Bieganski
-      <p>Cloud Engineer | Developer</p>
-    </h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <button class="emailme">Email Me</button>
-    <button class="viewmyresume">View My Resume</button>
-    <button class="aboutme">About Me</button>
-    <button class="downloadmyphoto">Download My Photo</button>
-    <button class="My Skills">My Skills</button>
-    <a href="resume.html" target="_blank" class="viewmyresume"
-      >View JB's Resume</a
-    >
-    <a href="about/about.html" target="_blank" class="aboutme">About JB</a>
-    <a href="images/jonathanbieganski.png" download class="myphoto">Download JB's Photo</a>
-    <a href="#section-skills" target="_blank" class="skills">JB's Skills</a>
-    <a href="https://google.com" target="_blank">Google.com</a>
-    <a href="mailto:jonathanbieganski@outlook.com">Email Me</a>
+    <section id="about" class="section">
+      <img
+        class="jonathanbieganskipng"
+        src="images/jonathanbieganski.png"
+        alt="An image of Jonathan Bieganski with a slight smile"
+      />
+      <h2>About Me</h2>
+      <p>
+        Welcome to my cloud developer portfolio. I specialize in cloud computing
+        technologies and enjoy creating scalable and secure solutions.
+      </p>
+    </section>
 
-    <p><b>Threads:</b> @jonathanbieganski@threads.net</p>
-    <p><b>Twitter:</b> @jonbieganski</p>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <!-- Include your cloud projects here -->
+      <div class="project">
+        <h3>Project 1: Cloud Application</h3>
+        <p>
+          Description of your cloud project. Highlight the technologies used and
+          your role.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project 2: Serverless Architecture</h3>
+        <p>Description of another cloud project you've worked on.</p>
+      </div>
+    </section>
 
-    <h2 id="section-experience">About www.jonathanbieganski.com"></www></h2>
-    <p>I was motivated to create this webpage after I passed my first Azure certification thanks to The Cloud Resume Challenge. This site is hosted on my Azure tenant that is exclusively dedicated to jonathanbieganski.com. I purchased the domain, transferred it to my Azure DNS zone, stood up an Azure Static Web App, configured version control via GitHub and also performed a lot of other actions.</p>
-    
-    <a href="#">Jump to Top</a>
-    <h3>
-      tag   
-    </h3>
-    <h4></h4>
-    <h5></h5>
-    <h6></h6>
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>
+        Feel free to reach out to me at your@email.com or connect with me on
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/yourname" target="_blank"
+          >LinkedIn Profile</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Name</p>
+    </footer>
   </body>
 </html>
