@@ -6,17 +6,6 @@
   font-size: large;
 }
 
-.blue-banner {
-  background-color: blue;
-  color: white; /* Text color inside the blue banner */
-  padding: 10px; /* Adjust the padding to your preference */
-  position: static; /* Position the banner relative to its container */
-  top: 0; /* Position it at the top of the container */
-  left: 0; /* Position it at the left of the container */
-  height: 5%;
-  width: 100%;
-}
-
 .jonathanbieganskipng {
   width: 200px;
   height: 150px;
