@@ -11,115 +11,132 @@
     <header>
       <nav>
         <ul class="topmenu">
-          <li><a href="#Home" class="Home">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Home" class="home">Home</a></li>
+          <li><a href="resume.html" class="resume">Resume</a></li>
+          <li><a href="#projects" class="projects">Projects</a></li>
+          <li><a href="#contact" class="contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section id="about" class="section">
       <div class="image-container">
         <div class="blue-banner">
-          <p>Jonathan Bieganski</p>
-          <p>Cloud Engineer | Developer</p>
-
           <img
             class="jonathanbieganskipng"
             src="images/jonathanbieganski.png"
             alt="An image of Jonathan Bieganski with a slight smile"
           />
+          <p class="jonathanbieganskiname">Jonathan Bieganski</p>
+          <p class="title">Cloud Engineer | Developer</p>
         </div>
       </div>
       <h2>About Me</h2>
-      <p>
-        Hello, my name is Jonathan Bieganski folks call me JB. I want to thank
-        you for taking an interest in me.
-      </p>
-      <p>
-        My career started in 2005 as a member of the Microservices team at
-        Computer Assiociates, which is now known as CA Technologies. The
-        Microservices Manager saw something in me and gave me the opportunity of
-        a lifetime; start out my career working for a large software company.
-        (Thank you, Bill.)
-      </p>
-      <p>
-        The first professional internal tool I had ever created was written at
-        CA Technologies and was written in Visual basic. That was also the first
-        time I had written a program outside of academia and more importantly,
-        the first time I saw a tool I created used by others. I received
-        professional feedback and made improvements to the tool. From that
-        moment on I hooked by the creativity and utility coding facilitates.
-        After the housing market crash of 2008 and the extensive layoffs
-        witnessed in 2010, I took the expereince I gained at CA Technologies and
-        ventured forth to apply my skills elsewhere.
-      </p>
-      <p>
-        Between 2010 and 2012 I was a contractor troubleshooting and standing up
-        systems. I landed an Instructional Design role at City College of San
-        Francisco where I had been attending Computer Science and Ethical
-        hacking courses. I'll never forget dropping off my resume in front of
-        the Technology Learning Center Staff, introducing myself and being
-        dismissed only to have my future managers briskly walk and stop me down
-        the hallway, I assume after scanning my resume. I trained Professors how
-        to create courses in Canvas and Moodle. I trained Lad Aides and
-        purchased hardware and maintained the systems in the lab. I learned a
-        lot about academia and thier unique needs and challenges. (Thank You,
-        Vic and Carol)
-      </p>
-      <p>
-        To care for an ailing family member, I resigned my role and coursework.
-        I picked up a few projects troubleshooting systems, setting up networks
-        and security systems. Around this time I met an amazing EdTech Sales
-        Manager and eventually convinced her to marry me. (Thank you, Amanda.)
-        Amande motivated me to get back into tech field proper and continue my
-        dream to work and experience Silicon Valley. A Lead Systems
-        Administrator at icontrol Networks, which was absorbed by Alarm.com, saw
-        something in me and brought me in under him. (Thank you, Mike.) I
-        learned about Second Tuesday Microsoft Server updates, Atlassian Suite
-        permissions, print management, VOIP and Cisco managed switch
-        configuration. I also completed my very first Microsoft Certification:
-        Enabling and Managing M365 (M20347). Working at Alarm.com and living
-        directly behind Oricals headquaters in a tiny overproced apartment was a
-        dream fulfilled. With that said, if I could have entertained purchasing
-        a home and building equity anywhere near Silicon Valley, I would still
-        be at Alarm.com.
-      </p>
-      <p>
-        We found our first home near Sacramento Calfornia where I had
-        successfully acquired a role as a Junior System Administrator at Magnit.
-        (Thank you, Robert.) I wrote scripts, managed the Microsoft, Mimecast
-        and Sophos portals. Home ownership is expensive and an opportunity to
-        become as a full fledged System Administrator was available at RSN
-        Technologies. (Thank you, Charlie.) While at RSN, I managed a team of
-        five ServiceDesk members, interviewed candidates, managed multiple
-        Microsoft Tenants, implemented MDM solutions and handled the occasional
-        escalations. RSN specialized in managing services for nursing homes.
-        Covid was an especially difficult time for us and our clients. As early
-        days of Covid and lockdowns started my service at RSN were no longer
-        warranted.
-      </p>
-      <p>
-        During the first California lockdown we decided to put our house on the
-        market and look for property with some land. We managed to sell our home
-        in Sacremento fairly quickly and shortly after moved into our new rural
-        property outside Portland, OR. I interviewed with my current employer
-        Fisher Phillips shortly after arriving in Oregon. Once hired, I directly
-        reported to the Director of Information Technology. (Thank you, Michael
-        & Joey) I started my career at Fisher Phillips by taking over Microsoft
-        System Center Configuration Manager from the Systems Team, migrated away
-        from and sunseting ServiceNow and created a few PowerAutomate workflows.
-        Recently I have been living in Microsoft Endpoint Configuration Manager
-        implementing Intune for our many entities.
-      </p>
-      <p>
-        Thank you for taking a look at my about section. With extensive
-        experience in the tech industry i've worked in diverse corporate
-        settings. I've recently specialization in Microsoft Azure Cloud
-        Services. Please feel free to contact and connect with me.
-      </p>
-    </section>
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+      <button type="button" class="collapsible">Open Collapsible</button>
+      <div class="collapsible">
+        <p class="content">
+          Thank you for taking an interest in me today and thank you to each and
+          every person that either hired me or had a role in my hiring. Without
+          your contribution to my career I would not be the person I am today.
+        </p>
 
+        <p class="content">
+          My career started in 2005 as a member of the Microservices team at
+          Computer Assiociates, which is now known as CA Technologies. The
+          Microservices Manager saw something in me and gave me the opportunity
+          of a lifetime; start out my career working for a large software
+          company. (Thank you, Bill.) The first professional internal tool I had
+          ever created was written at CA Technologies and was written in Visual
+          basic. That was also the first time I had written a program outside of
+          academia and more importantly, the first time I saw a tool I created
+          used by others. I received professional feedback and made improvements
+          to the tool. From that moment on I hooked by the creativity and
+          utility coding facilitates. After the housing market crash of 2008 and
+          the extensive layoffs witnessed in 2010, I took the expereince I
+          gained at CA Technologies and ventured forth to apply my skills
+          elsewhere.
+        </p>
+        <p class="content">
+          Between 2010 and 2012 I was a contractor troubleshooting and standing
+          up systems. I landed an Instructional Design role at City College of
+          San Francisco where I had been attending Computer Science and Ethical
+          hacking courses. I'll never forget dropping off my resume in front of
+          the Technology Learning Center Staff, introducing myself and being
+          dismissed only to have my future managers briskly walk and stop me
+          down the hallway, I assume after scanning my resume. I trained
+          Professors how to create courses in Canvas and Moodle. I trained Lad
+          Aides and purchased hardware and maintained the systems in the lab. I
+          learned a lot about academia and thier unique needs and challenges.
+          (Thank You, Vic and Carol)
+        </p>
+        <p class="content">
+          To care for an ailing family member, I resigned my role and
+          coursework. I picked up a few projects troubleshooting systems,
+          setting up networks and security systems. Around this time I met an
+          amazing EdTech Sales Manager and eventually convinced her to marry me.
+          (Thank you, Amanda.) Amande motivated me to get back into tech field
+          proper and continue my dream to work and experience Silicon Valley. A
+          Lead Systems Administrator at icontrol Networks, which was absorbed by
+          Alarm.com, saw something in me and brought me in under him. (Thank
+          you, Mike.) I learned about Second Tuesday Microsoft Server updates,
+          Atlassian Suite permissions, print management, VOIP and Cisco managed
+          switch configuration. I also completed my very first Microsoft
+          Certification: Enabling and Managing M365 (M20347). Working at
+          Alarm.com and living directly behind Oricals headquaters in a tiny
+          overproced apartment was a dream fulfilled. With that said, if I could
+          have entertained purchasing a home and building equity anywhere near
+          Silicon Valley, I would still be at Alarm.com.
+        </p>
+        <p class="content">
+          We found our first home near Sacramento Calfornia where I had
+          successfully acquired a role as a Junior System Administrator at
+          Magnit. (Thank you, Robert.) I wrote scripts, managed the Microsoft,
+          Mimecast and Sophos portals. Home ownership is expensive and an
+          opportunity to become as a full fledged System Administrator was
+          available at RSN Technologies. (Thank you, Charlie.) While at RSN, I
+          managed a team of five ServiceDesk members, interviewed candidates,
+          managed multiple Microsoft Tenants, implemented MDM solutions and
+          handled the occasional escalations. RSN specialized in managing
+          services for nursing homes. Covid was an especially difficult time for
+          us and our clients. As early days of Covid and lockdowns started my
+          service at RSN were no longer warranted.
+        </p>
+        <p class="content">
+          During the first California lockdown we decided to put our house on
+          the market and look for property with some land. We managed to sell
+          our home in Sacremento fairly quickly and shortly after moved into our
+          new rural property outside Portland, OR. I interviewed with my current
+          employer Fisher Phillips shortly after arriving in Oregon. Once hired,
+          I directly reported to the Director of Information Technology. (Thank
+          you, Michael & Joey) I started my career at Fisher Phillips by taking
+          over Microsoft System Center Configuration Manager from the Systems
+          Team, migrated away from and sunseting ServiceNow and created a few
+          PowerAutomate workflows. Recently I have been living in Microsoft
+          Endpoint Configuration Manager implementing Intune for our many
+          entities.
+        </p>
+        <p class="content">
+          Thank you for taking a look at my about section. With extensive
+          experience in the tech industry i've worked in diverse corporate
+          settings. I've recently specialization in Microsoft Azure Cloud
+          Services. Please feel free to contact and connect with me.
+        </p>
+      </div>
+    </section>
     <section id="projects" class="section">
       <h2>Projects</h2>
       <div class="project">
