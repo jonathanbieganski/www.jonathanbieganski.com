@@ -1,15 +1,61 @@
 .topmenu {
   color: purple;
+  color-scheme: white;
 }
 
-.Home {
-  font-size: large;
+.home {
+  font-size: x-large;
+}
+
+.resume {
+  font-size: x-large;
+}
+
+.projects {
+  font-size: x-large;
+}
+
+.contact {
+  font-size: x-large;
 }
 
 .jonathanbieganskipng {
   width: 200px;
   height: 150px;
   border-radius: 50%;
+}
+
+.jonathanbieganskiname {
+  font-size: x-large;
+  color: purple;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.project {
+  margin-bottom: 2rem;
 }
 
 body {
@@ -19,7 +65,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #365;
   color: white;
   text-align: center;
   padding: 1rem 0;
@@ -37,10 +83,6 @@ nav li {
 
 section {
   padding: 2rem;
-}
-
-.project {
-  margin-bottom: 2rem;
 }
 
 footer {
