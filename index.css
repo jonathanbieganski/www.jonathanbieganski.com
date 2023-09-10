@@ -1,3 +1,6 @@
+center {
+}
+
 header {
   color: azure;
   text-align: center;
@@ -44,15 +47,23 @@ nav li {
 }
 
 .jonathanbieganskipng {
-  padding-left: 2mm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .jonathanbieganskiname {
-  font-size: x-large;
-  padding-left: 2mm;
+  text-align: center;
+  font-size: xxx-large;
+  color: azure;
+}
+
+.jobtitle {
+  text-align: center;
   color: azure;
 }
 
@@ -67,6 +78,7 @@ nav li {
 .contactme {
   padding-top: 5mm;
 }
+
 footer {
   background-color: rgb(32, 1, 32);
   color: white;
