@@ -1,91 +1,21 @@
-.topmenu {
-  color: purple;
-  color-scheme: white;
-}
-
-.home {
-  font-size: x-large;
-}
-
-.resume {
-  font-size: x-large;
-}
-
-.projects {
-  font-size: x-large;
-}
-
-.contact {
-  font-size: x-large;
-}
-
-.jonathanbieganskipng {
-  width: 200px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.jonathanbieganskiname {
-  font-size: x-large;
-  color: purple;
-}
-
-.active,
-.collapsible:hover {
-  background-color: #ccc;
-}
-
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.collapsible:after {
-  content: "\02795"; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-
-.project {
-  margin-bottom: 2rem;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 header {
-  background-color: #365;
-  color: white;
+  color: azure;
   text-align: center;
   padding: 1rem 0;
 }
 
+body {
+  background-color: rgb(43, 1, 52);
+  color: azure;
+}
+.topmenu {
+  color: azure;
+  color-scheme: azure;
+}
+
 nav ul {
   list-style: none;
-  padding: 0;
+  padding: 5mm;
 }
 
 nav li {
@@ -93,13 +23,53 @@ nav li {
   margin-right: 20px;
 }
 
-section {
-  padding: 2rem;
+.home {
+  font-size: x-large;
+  color: azure;
 }
 
+.resume {
+  font-size: x-large;
+  color: azure;
+}
+
+.projects {
+  font-size: x-large;
+  color: azure;
+}
+
+.contact {
+  font-size: x-large;
+  color: azure;
+}
+
+.jonathanbieganskipng {
+  padding-left: 2mm;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.jonathanbieganskiname {
+  font-size: x-large;
+  padding-left: 2mm;
+  color: azure;
+}
+
+.about {
+  padding-top: 10mm;
+}
+
+.projects {
+  padding-top: 5mm;
+}
+
+.contactme {
+  padding-top: 5mm;
+}
 footer {
-  background-color: #333;
+  background-color: rgb(32, 1, 32);
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }

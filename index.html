@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      function collapsible(event) {
-        event.preventDefault();
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-      }
-    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="jonathanbieganski.com" />
@@ -36,81 +18,75 @@
         </ul>
       </nav>
     </header>
-    <section id="about" class="section">
-      <div class="image-container">
-        <div class="blue-banner">
-          <img
-            class="jonathanbieganskipng"
-            src="images/jonathanbieganski.png"
-            alt="An image of Jonathan Bieganski with a slight smile"
-          />
-          <p class="jonathanbieganskiname">Jonathan Bieganski</p>
-          <p class="title">Cloud Engineer | Developer</p>
-        </div>
-      </div>
-      <button type="button" onclick="collapsible(event)" class="collapsible">
-        <b>About</b>
-      </button>
-      <div class="content" style="display: none">
-        <p>
-          My tech career began in 2005 at CA Technologies on their Microservices
-          team. There I gained exposure to production and testing environments
-          which included linux systems, server farms, hypervisors. I programmed
-          my first few internal tools sparking my passion for problem-solving
-          and coding.
-        </p>
-        <p>
-          After the housing market crash and the following recession I began my
-          formal studies in computer science and ethical hacking at City College
-          of San Francisco. While attending I worked as an Instructional
-          Designer in their Technology Learning Center. I trained professors and
-          Lab Aides to construct Canvas and Moodle courses. I managed the
-          systems. This experience taught me many valuable lessons about
-          academia's unique needs and challenges.
-        </p>
-        <p>
-          I briefly stepped away from my studies and design career to care for a
-          family member, taking on projects when possible. It was during this
-          time that I met an amazing EdTech Sales Manager. I eventually
-          convinced her to marry me. She played a pivotal role in helping me
-          redirect my focus and pursue my ambition of working in tech within
-          Silicon Valley.
-        </p>
-        <p>
-          The Lead Systems Administrator at iControl Networks recognized my
-          potential and brought me onboard. There I gained experience in various
-          systems and earned my first Microsoft Certification. Alarm.com
-          absorded icontrol networks. I began to specialize in Azure, M365,
-          Windows Server and macOS. The high cost of living in Silicon Valley
-          led me to resign and relocate to Sacramento where lined up a junior
-          System Administrator position at Magnit.
-        </p>
-        <p>
-          After some time at Magnit managing their systems and writing some
-          PowerShell scripts I was offered a System Administrator role by IT
-          Director of RSN Technologies. There I managed a small team and managed
-          mutiple tenants and systems. At the very beginning of the covid
-          pandemic, when lockdowns began, circumstances changed, we sold our
-          home in Sacramento and moved to Oregon.
-        </p>
-        <p>
-          After settling in to our new property in Oregon I began work at Fisher
-          Phillips. This is my current employer and my role is quite varied. I
-          manage Microsoft System Center Configuration Manager & Microsoft
-          Endpoint Configuration Manager, lead projects, stand up systems,
-          create workflows and write automation.
-        </p>
-        <p>
-          With numerous years of experience and a diverse background in tech,
-          coupled with expertise in Microsoft Azure Cloud Services and the M365
-          Stack, I am eager to engage in conversations and explore fresh
-          opportunities. I bring a wealth of valuable skills and insights that
-          can be of great benefit.
-        </p>
-      </div>
-    </section>
+    <div class="image">
+      <img
+        class="jonathanbieganskipng"
+        src="images/jonathanbieganski.png"
+        alt="An image of Jonathan Bieganski with a slight smile"
+      />
+      <p class="jonathanbieganskiname">
+       <h2>Jonathan Bieganski</h2> Cloud Engineer | Developer
+      </p>
+    </div>
+    <div class="aboutcontent">
+      <h2 class="about"><b>About:</b></h2>
+      <p>
+        My tech career began in 2005 at CA Technologies on their Microservices
+        team. There I gained exposure to production and testing environments
+        which included linux systems, server farms, hypervisors. I programmed my
+        first few internal tools sparking my passion for problem-solving and
+        coding.
+      </p>
+      <p>
+        After the housing market crash and the following recession I began my
+        formal studies in computer science and ethical hacking at City College
+        of San Francisco. While attending I worked as an Instructional Designer
+        in their Technology Learning Center. I trained professors and Lab Aides
+        to construct Canvas and Moodle courses. I managed the systems. This
+        experience taught me many valuable lessons about academia's unique needs
+        and challenges.
+      </p>
+      <p>
+        I briefly stepped away from my studies and design career to care for a
+        family member, taking on projects when possible. It was during this time
+        that I met an amazing EdTech Sales Manager. I eventually convinced her
+        to marry me. She played a pivotal role in helping me redirect my focus
+        and pursue my ambition of working in tech within Silicon Valley.
+      </p>
+      <p>
+        The Lead Systems Administrator at iControl Networks recognized my
+        potential and brought me onboard. There I gained experience in various
+        systems and earned my first Microsoft Certification. Alarm.com absorded
+        icontrol networks. I began to specialize in Azure, M365, Windows Server
+        and macOS. The high cost of living in Silicon Valley led me to resign
+        and relocate to Sacramento where lined up a junior System Administrator
+        position at Magnit.
+      </p>
+      <p>
+        After some time at Magnit managing their systems and writing some
+        PowerShell scripts I was offered a System Administrator role by IT
+        Director of RSN Technologies. There I managed a small team and managed
+        mutiple tenants and systems. At the very beginning of the covid
+        pandemic, when lockdowns began, circumstances changed, we sold our home
+        in Sacramento and moved to Oregon.
+      </p>
+      <p>
+        After settling in to our new property in Oregon I began work at Fisher
+        Phillips. This is my current employer and my role is quite varied. I
+        manage Microsoft System Center Configuration Manager & Microsoft
+        Endpoint Configuration Manager, lead projects, stand up systems, create
+        workflows and write automation.
+      </p>
+      <p>
+        With numerous years of experience and a diverse background in tech,
+        coupled with expertise in Microsoft Azure Cloud Services and the M365
+        Stack, I am eager to engage in conversations and explore fresh
+        opportunities. I bring a wealth of valuable skills and insights that can
+        be of great benefit.
+      </p>
+    </div>
     <section id="projects" class="section">
-      <h2>Projects:</h2>
+      <h2 class="projects">Projects:</h2>
       <div class="cloudresumeprojects">
         <h3>
           <a
@@ -152,7 +128,7 @@
       <div class="domainprojects"></div>
     </section>
     <section id="contact" class="section">
-      <h2>Contact me</h2>
+      <h2 class="contactme">Contact me</h2>
       <div class="Contact Me">
         <p>
           Email me:
