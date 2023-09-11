@@ -51,8 +51,8 @@ nav li {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -71,12 +71,29 @@ nav li {
   padding-top: 10mm;
 }
 
+.aboutcontent {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
 .projects {
   padding-top: 5mm;
+  text-align: center;
+  width: 600px;
+  margin: auto;
 }
 
+.cloudresumeprojects {
+  padding-top: 5mm;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
 .contactme {
   padding-top: 5mm;
+  text-align: center;
+  width: 600px;
+  margin: auto;
 }
 
 footer {
