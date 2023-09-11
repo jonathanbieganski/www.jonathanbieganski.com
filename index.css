@@ -58,7 +58,7 @@ nav li {
 
 .jonathanbieganskiname {
   text-align: center;
-  font-size: xxx-large;
+  font-size: xx-large;
   color: azure;
 }
 
@@ -73,22 +73,24 @@ nav li {
 
 .aboutcontent {
   text-align: justify;
-  width: 600px;
-  margin-left: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
 .projects {
   padding-top: 5mm;
   text-align: center;
-  width: 600px;
-  margin-left: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .cloudresumeprojects {
   padding-top: 5mm;
-  text-align: justify;
-  width: 600px;
-  margin-left: auto;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
 .contactme {
   padding-top: 5mm;
   text-align: center;
@@ -101,8 +103,4 @@ footer {
   color: white;
   text-align: center;
   padding: 2rem 0;
-}
-
-.test {
-  text-shadow: none;
 }
