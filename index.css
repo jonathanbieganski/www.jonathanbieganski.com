@@ -72,22 +72,22 @@ nav li {
 }
 
 .aboutcontent {
-  text-align: center;
+  text-align: justify;
   width: 600px;
-  margin: auto;
+  margin-left: auto;
 }
 .projects {
   padding-top: 5mm;
   text-align: center;
   width: 600px;
-  margin: auto;
+  margin-left: auto;
 }
 
 .cloudresumeprojects {
   padding-top: 5mm;
-  text-align: center;
+  text-align: justify;
   width: 600px;
-  margin: auto;
+  margin-left: auto;
 }
 .contactme {
   padding-top: 5mm;
