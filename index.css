@@ -1,16 +1,9 @@
-center {
-}
-
 header {
   color: azure;
   text-align: center;
   padding: 1rem 0;
 }
 
-body {
-  background-color: rgb(43, 1, 52);
-  color: azure;
-}
 .topmenu {
   color: azure;
   color-scheme: azure;
@@ -18,12 +11,18 @@ body {
 
 nav ul {
   list-style: none;
-  padding: 5mm;
+  padding: 10mm;
 }
 
 nav li {
   display: inline;
   margin-right: 20px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: rgb(43, 1, 52);
+  color: azure;
 }
 
 .home {
@@ -78,24 +77,38 @@ nav li {
 }
 
 .projects {
-  padding-top: 5mm;
-  text-align: center;
+  padding-top: 15mm;
+  text-align: left;
   margin-left: 50px;
   margin-right: 50px;
 }
 
+ol {
+  list-style-position: inside;
+}
+
+.divcloudresumechallengecenter {
+  text-align: center;
+}
+
 .cloudresumeprojects {
   padding-top: 5mm;
-  text-align: center;
+  text-align: justify;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .contactme {
+  padding-top: 15mm;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.contactmecontent {
   padding-top: 5mm;
-  text-align: center;
-  width: 600px;
-  margin: auto;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 footer {
